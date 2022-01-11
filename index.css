@@ -13,18 +13,6 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-p {
-    margin-top: 25px;
-}
-
-h6 {
-    margin-top: 50px;
-}
-
-h1,
-h2,
 h3 {
     font-weight: 900;
     line-height: 1;
@@ -33,8 +21,6 @@ h3 {
 .container {
     width: 100%;
     max-width: 120rem;
-    margin: auto;
-    padding: 0;
 }
 
 
@@ -142,7 +128,9 @@ h3 {
 
 /* this is the Get in touch with us section */
 
-.gitcontainer {}
+.gitContainer {
+    background-color: #e7e2da;
+}
 
 
 /* this is the text above the git buttons */
@@ -179,7 +167,6 @@ h3 {
     background-color: #00000000;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
     background-image: url('images/1line_logo.png');
 }
 
@@ -220,10 +207,12 @@ h3 {
 .navIMG1 {
     position: relative;
     width: 100%;
+    background-color: white;
 }
 
 .navIMG1:hover img {
     opacity: .4;
+    background-color: white;
 }
 
 .imgMG {
@@ -262,6 +251,11 @@ h3 {
 .IMG1Tittle {
     font-size: 2em;
     font-weight: bold;
+    color: #45463d
+}
+
+.IMG1Tittle h2 {
+    text-align: center;
 }
 
 .IMG1Description {
@@ -292,7 +286,6 @@ h3 {
 
 .instaTtle {
     padding-left: 30px;
-    margin-top: 1rem;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -318,9 +311,19 @@ h3 {
     height: 600px;
 }
 
-.AUR1 h4 {
-    text-align: center;
+.AUR1 h5 {
+    text-align: left;
     font-weight: 300;
+}
+
+.caption h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.caption h4 {
+    text-align: center;
 }
 
 .AUR1 p {
